@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  cmp-am-dev:
+  - apiVersion: v1
+    created: 2018-02-06T12:07:36.619260376Z
+    description: Composite Helm Chart that deploys OpenAM, amster and a separate DJ
+      config store
+    digest: e011ae33bf5ee829a2f3e8b98efa979b5429b40b855a153fa8d21a6bb5cb1439
+    name: cmp-am-dev
+    urls:
+    - cmp-am-dev-5.5.0.tgz
+    version: 5.5.0
+  cmp-am-dj:
+  - apiVersion: v1
+    created: 2018-02-06T12:07:36.620550582Z
+    description: Composite Helm Chart that deploys OpenAM, and DJ instances for CTS,
+      Config store and userstore
+    digest: aae3889cc32c1e823c87f40e534bcc587a98f5d87698b0b68c87b92062ac62cf
+    name: cmp-am-dj
+    urls:
+    - cmp-am-dj-5.5.0.tgz
+    version: 5.5.0
+generated: 2018-02-06T12:07:36.617651555Z
